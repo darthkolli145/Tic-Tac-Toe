@@ -13,7 +13,7 @@ def play_game(conn, board):
         bool: True if the game is over, False otherwise.
     """
     while True:
-        board.displayBoard()
+        board.displayBoard() #Displays the board
         while True:
             move = input("Enter your move (row,col): ")
             try:
