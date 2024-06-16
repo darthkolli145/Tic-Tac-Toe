@@ -106,3 +106,4 @@ class BoardClass:
         print(f"{self.player1} wins: {self.player1_wins}")
         print(f"{self.player2} wins: {self.player2_wins}")
         print(f"Ties: {self.ties}")
+#end of file
